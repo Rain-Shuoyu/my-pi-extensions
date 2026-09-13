@@ -1,0 +1,8 @@
+{
+  "name": "pi-global-skill-manager",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit"
+  }
+}
