@@ -4,6 +4,7 @@
 
 - `skill-manager/`：管理 skill 的自动、手动和禁用状态。
 - `statusline/`：提供带颜色和上下文进度条的双行状态栏。
+- `startup-page/`：提供带 Banner、extension 列表和自动 skill 列表的启动页。
 
 ## 当前安装方式
 
