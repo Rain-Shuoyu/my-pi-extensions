@@ -4,6 +4,7 @@ import { filterAutoSkills, formatSection } from "./discovery.ts";
 
 assert(BANNER.length >= 5);
 assert(BANNER.some((line) => line.includes("█")));
+assert.equal(new Set(BANNER.map((line) => line.length)).size, 1);
 assert(fitLine("abcdef", 4).length <= 4);
 assert.equal(fitLine("abc", 4), "abc");
 assert.deepEqual(filterAutoSkills([

@@ -5,6 +5,7 @@
 - 每个 extension 和 skill 独占一行。
 - 列表按名称排序。
 - 长列表会根据终端高度截断并显示剩余数量。
+- `quietStartup: true` 关闭 Pi 内置的 `[Skills]` / `[Extensions]` 摘要，避免重复显示。
 - `/builtin-header` 恢复 Pi 内置启动页。
 - `/reload` 重新加载扩展。
 
